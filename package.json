@@ -1,11 +1,6 @@
 {
-  "name": "playwright-poject",
+  "name": "playwright",
   "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {},
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "description": "",
   "devDependencies": {
     "@playwright/test": "^1.60.0",
@@ -13,5 +8,24 @@
   },
   "dependencies": {
     "dotenv": "^17.4.2"
-  }
+  },
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aaqib-yfz/Playwright.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/aaqib-yfz/Playwright/issues"
+  },
+  "homepage": "https://github.com/aaqib-yfz/Playwright#readme"
 }
