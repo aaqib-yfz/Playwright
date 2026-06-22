@@ -13,8 +13,8 @@ export class AdminPage {
   }
 
   async addUser(user: any) {
-    const tableRow = this.page.locator(".oxd-table-row").nth(4);
-    const employeeName = await tableRow
+    const tableRows = this.page.locator(".oxd-table-row").nth(4);
+    const employeeName = await tableRows
       .locator("div.oxd-table-cell")
       .nth(3)
       .textContent();
