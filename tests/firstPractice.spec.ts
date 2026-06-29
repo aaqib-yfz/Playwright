@@ -18,4 +18,5 @@ test("Visit Our Website", async ({ page }) => {
   await dashboardPage.visitAdminPage();
 
   await adminPage.addUser(userName);
+  await adminPage.deleteUser(userName);
 });

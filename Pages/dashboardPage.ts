@@ -9,4 +9,7 @@ export class DashboardPage {
   async visitAdminPage() {
     await this.page.getByRole("link", { name: "Admin" }).click();
   }
+    async visitPimPage() {
+    await this.page.getByRole("link", { name: "PIM" }).click();
+  }
 }
